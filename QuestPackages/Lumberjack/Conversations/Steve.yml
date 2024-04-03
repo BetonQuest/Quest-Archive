@@ -1,0 +1,16 @@
+conversations:
+  Steve:
+    quester: 'Steve' #NPC Name
+    first: 'firstGreeting, questDone, rewardGiven' # The NPC options that will show when the player clicks the NPC
+
+    NPC_options:
+      firstGreeting:
+        text: 'Hello %player%! Welcome to the world of BetonQuest! This is an example quest to gather 4 Logs! Do you wish to continue?'
+        pointer: 'questAccept, questDeny'
+
+    player_options:
+      questAccept:
+        text: "Yes! I'd like to try the quest!"
+        event: 'startQuest'
+      questDeny:
+        text: "No. I have something else to do." # We dont really need to set an event here, the conversation will just end.

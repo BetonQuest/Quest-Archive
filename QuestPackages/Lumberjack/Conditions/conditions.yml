@@ -1,0 +1,2 @@
+conditions:
+  questStartedTag: tag questStarted # Checks if the player has the tag questStarted

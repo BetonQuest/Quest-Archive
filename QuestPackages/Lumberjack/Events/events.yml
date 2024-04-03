@@ -1,0 +1,2 @@
+events:
+  startQuest: run ^objective add breakLogs ^tag add questStarted # Run the events listed, Started the objective and adding the questStarted tag
