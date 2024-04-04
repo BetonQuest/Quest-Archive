@@ -1,2 +1,2 @@
 objectives:
-  breakLogs: 'block OAK_LOG -4 notify event:endQuest' # Player objective to break 4 logs. Adding 'notify' sends the message a player throught the objective letting them know progress. - https://betonquest.org/2.0-DEV/Documentation/Scripting/Building-Blocks/Objectives-List/#break-or-place-blocks-block
+  breakLogs: 'block OAK_LOG -4 notify event:endQuest' # Player objective to break 4 logs. Adding 'notify' sends the  player a message through the objective letting them know progress. - https://betonquest.org/2.0-DEV/Documentation/Scripting/Building-Blocks/Objectives-List/#break-or-place-blocks-block
