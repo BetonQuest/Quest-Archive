@@ -1,2 +1,0 @@
-objectives:
-  breakLogs: 'block LOG -4 event:endQuest' # Player objective to break 4 logs - https://betonquest.org/2.0-DEV/Documentation/Scripting/Building-Blocks/Objectives-List/#break-or-place-blocks-block
