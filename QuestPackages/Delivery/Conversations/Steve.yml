@@ -1,0 +1,4 @@
+conversations:
+  Steve:
+  quester: "Steve"
+  first: "welcome, questStarted, questDone"
