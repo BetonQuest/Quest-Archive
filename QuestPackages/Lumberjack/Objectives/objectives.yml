@@ -1,2 +1,0 @@
-objectives:
-  breakLogs: 'block LOG -4 events:endQuest' # Player objective to break 4 logs

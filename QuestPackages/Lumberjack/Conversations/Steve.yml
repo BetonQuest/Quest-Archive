@@ -1,12 +1,17 @@
 conversations:
   Steve:
-    quester: 'Steve' #NPC Name
-    first: 'firstGreeting, questDone, rewardGiven' # The NPC options that will show when the player clicks the NPC
+    quester: 'Steve' # NPC Name
+    first: 'firstGreeting, questDone, onQuest' # The NPC options that will show when the player clicks the NPC
 
     NPC_options:
       firstGreeting:
         text: 'Hello %player%! Welcome to the world of BetonQuest! This is an example quest to gather 4 Logs! Do you wish to continue?'
-        pointer: 'questAccept, questDeny'
+        pointer: 'questAccept, questDeny' # Point to player options
+        conditions: '!questDoneTag' # Checks if the player DOES NOT have the tag questDone. "!" Negates the condition and returns TRUE if the player DOES NOT meet the conditions.
+      onQuest:
+        text: "You have not completed the quest yet! Come back later!"
+      questDone:
+        text: "You have completed the quest already!"
 
     player_options:
       questAccept:

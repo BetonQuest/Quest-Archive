@@ -1,0 +1,3 @@
+conditions:
+  questStartedTag: tag questStarted # Checks if the player has the tag questStarted given on quest start - More on TAG Conditions here - https://betonquest.org/2.0-DEV/Documentation/Scripting/Building-Blocks/Conditions-List/#tag-tag
+  questDoneTag: tag questDone # Checks if the player has the tag questDone given after completing the objective

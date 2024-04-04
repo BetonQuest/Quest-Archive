@@ -1,0 +1,3 @@
+events:
+  startQuest: run ^objective add breakLogs ^tag add questStarted # Run the events listed, Starting the objective and Adding the questStarted tag. More on RUN events here - https://betonquest.org/2.0-DEV/Documentation/Scripting/Building-Blocks/Events-List/#run-events-run
+  endQuest: run ^tag del questStarted ^tag add questDone ^give diamond:1 # Run the events listed, Delete the questStarted tag, add the questDone tag, and give the player 1 Diamond

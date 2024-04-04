@@ -1,2 +1,5 @@
 npcs:
-  '0': "Steve"
+  '0': "Steve" # NPC ID and Name
+
+items: # The item section is where you define quest items - https://betonquest.org/2.0-DEV/Documentation/Features/Items/
+  diamond: diamond
