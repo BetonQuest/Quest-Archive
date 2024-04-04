@@ -10,8 +10,10 @@ conversations:
         conditions: '!questDoneTag' # Checks if the player DOES NOT have the tag questDone. "!" Negates the condition and returns TRUE if the player DOES NOT meet the conditions.
       onQuest:
         text: "You have not completed the quest yet! Come back later!"
+        conditions: 'questStartedTag'
       questDone:
         text: "You have completed the quest already!"
+        conditions: 'questDoneTag'
 
     player_options:
       questAccept:
