@@ -1,0 +1,4 @@
+objectives:
+  killZombie: mobkill ZOMBIE 10 notify event:startQuestObj2 # We use the mobkill objective here - https://betonquest.org/2.0-DEV/Documentation/Scripting/Building-Blocks/Objectives-List/#entity-kill-mobkill
+  killSkeleton: mobkill SKELETON 5 notify event:startQuestObj3
+  killCreeper: mobkill CREEPER 3 notify event:endQuest

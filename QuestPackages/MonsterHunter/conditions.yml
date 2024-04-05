@@ -1,0 +1,3 @@
+conditions:
+  questStarted: tag questStarted
+  questDone: tag questDone

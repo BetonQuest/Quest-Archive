@@ -1,0 +1,22 @@
+conversations:
+  Steve:
+    quester: 'Steve'
+    first: 'welcome, questStarted, questDone'
+    NPC_options:
+      welcome:
+        text: "Welcome to the MonsterHunter quest tutorial %player%! This is an example quest to hunt down 10 zombies, 5 skeleton, and 3 creepers! We could kill them all at once, but i chose to showcase what it would be like to have 'stages' of sorts going from one objective to another"
+        pointer: 'acceptQuest, denyQuest'
+        condition: '!questStarted,!questDone'
+      questStarted:
+        text: "You have not completed the quest yet!"
+        condition: 'questStarted, !questDone' # Another examplke of negating conditions, we can negate one but not the other. Again just put ! in front of the conditions you wish to negate.
+      questDone:
+        text: "You finished the Quest!"
+        condition: 'questDone'
+
+    player_options:
+      acceptQuest:
+        text: "Accpet Quest"
+        event: 'startQuestObj1'
+      denyQuest:
+        text: "Deny Quest"

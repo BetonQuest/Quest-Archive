@@ -1,0 +1,5 @@
+events:
+  startQuestObj1: run ^objective add killZombie ^tag add questStarted ^notify Kill 10 Zombies! # Our NOTIFY event sends a message to the player with the given string - https://betonquest.org/2.0-DEV/Documentation/Scripting/Building-Blocks/Events-List/#sending-notifications-notify
+  startQuestObj2: run ^objective add killSkeleton ^notify Kill 5 Skeletons!
+  startQuestObj3: run ^objective add killCreeper ^notify Kill 3 Creepers!
+  endQuest: run ^tag delete questStarted ^tag add questDone ^give diamond:1 ^notify You have completed MonsterHunter quest! # We have already covered RUN events in other packages - https://betonquest.org/2.0-DEV/Documentation/Scripting/Building-Blocks/Events-List/#run-events-run and GIVE events - https://betonquest.org/2.0-DEV/Documentation/Scripting/Building-Blocks/Events-List/#give-items-give
