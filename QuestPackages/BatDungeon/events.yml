@@ -1,0 +1,5 @@
+events:
+  teleportToCave: "teleport $caveLoc$" # We use the variable with '$variableName$' and we can use it in most event arguments.
+  teleportToNPC: "teleport $returnLoc$"
+  spawnBats: "spawn $batSpawn$ marked:targets"
+  startQuest: "folder"

@@ -6,4 +6,10 @@ conversation:
     NPC_options:
       welcome:
         text: "Hey %player%! Welcome to the BatDungeon tutorial quest! This quest will give you an example of teleporting a player, killing mobs, and using variables!"
-        
+        pointer: "acceptQuest,denyQuest"
+
+    player_options:
+      acceptQuest:
+        text: "Start Quest"
+      denyQuest:
+        text: "Deny Quest"

@@ -2,5 +2,6 @@ npcs:
   '0': "Steve"
 
 variables:
-  caveLoc:
-  returnLoc:
+  caveLoc: "0;0;0;world" # X;Y;Z;world_name
+  returnLoc: "0;0;0;world" # X;Y;Z;world_name
+  batSpawn: "0;0;0;world BAT 5" # X;Y;Z;world_name MOBNAME amount
