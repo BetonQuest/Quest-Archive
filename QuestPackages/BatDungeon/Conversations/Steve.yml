@@ -1,0 +1,9 @@
+conversation:
+  Steve:
+    quester: 'Steve' # NPC Name
+    first: 'welcome' # The NPC options that will show when the player clicks the NPC
+
+    NPC_options:
+      welcome:
+        text: "Hey %player%! Welcome to the BatDungeon tutorial quest! This quest will give you an example of teleporting a player, killing mobs, and using variables!"
+        
