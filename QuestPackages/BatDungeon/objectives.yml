@@ -1,0 +1,2 @@
+objective:
+  killBats: "mobkill BAT 5 notify events:endQuest"

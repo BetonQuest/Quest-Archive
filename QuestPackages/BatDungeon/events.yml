@@ -2,4 +2,9 @@ events:
   teleportToCave: "teleport $caveLoc$" # We use the variable with '$variableName$' and we can use it in most event arguments.
   teleportToNPC: "teleport $returnLoc$"
   spawnBats: "spawn $batSpawn$ marked:targets"
-  startQuest: "folder"
+  startObj: "objective add killBats"
+  reward: "give diamond:1"
+
+  startQuest: "folder teleportToCave,spawnBats,startObj" # Folder events can run multiple pre defined events back to back. More on Folders here - https://betonquest.org/2.0-DEV/Documentation/Scripting/Building-Blocks/Events-List/#run-multiple-events-folder
+
+  endQuest: "folder teleportToNPC,reward"

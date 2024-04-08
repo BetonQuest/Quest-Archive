@@ -6,10 +6,17 @@ conversation:
     NPC_options:
       welcome:
         text: "Hey %player%! Welcome to the BatDungeon tutorial quest! This quest will give you an example of teleporting a player, killing mobs, and using variables!"
+        pointer: continue
+      npcCont:
+        text: "Head over to the BatDungeon Quest Package and head to the package.yml file. you'll notice line 5,6,7 accept coords. Change these to the coords for your world before starting the quest please"
         pointer: "acceptQuest,denyQuest"
 
     player_options:
       acceptQuest:
         text: "Start Quest"
+        event: "startQuest"
       denyQuest:
         text: "Deny Quest"
+      continue:
+        text: "&7(...)"
+        pointer: "npcCont"
