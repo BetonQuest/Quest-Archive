@@ -1,5 +1,4 @@
 name: Sync Common Files
-permissions: write-all
 
 on:
   schedule:
