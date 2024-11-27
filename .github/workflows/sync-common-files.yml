@@ -14,3 +14,4 @@ jobs:
         uses: BetonQuest/CommonProjectFiles@main
         with:
           ignored-files: mvnw,mvnw.cmd,.mvn
+          token: ${{ secrets.ALL_REPOSITORIES_ACCESS_TOKEN }}
