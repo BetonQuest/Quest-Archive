@@ -14,4 +14,3 @@ jobs:
         uses: BetonQuest/CommonProjectFiles@main
         with:
           ignored-files: mvnw,mvnw.cmd,.mvn
-          include-default-ignored-files: .github/workflows/EditorConfig.yml
